@@ -14,7 +14,7 @@ OrionLib:MakeNotification({ --Thông Tin
 })
 
 Tab:AddButton({
-	Name = "Teleport Button",
+	Name = "Pull Lever",
 	Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("RaceV4Progress","Begin")
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-12547.7, 290.139, -7487.06)
